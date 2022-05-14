@@ -14,10 +14,6 @@ spark = glueContext.spark_session
 job = Job(glueContext)
 job.init(args['JOB_NAME'], args)
 
-# Read CSV file from S3 bucket
-datasource0 = glueContext.create_dynamic_frame.from_options('s3', {'paths': ['s3://s3-bucket-s3bucket-jey7guiz8qft/simple_data/simple_data.csv']}, 'csv', {'withHeader': True})
-
-# Show records in the dynamicframe
-datasource0.show()
+dynamic_frame_0 = glueContext.create_dynamic_frame_from_options("s3", {"paths": ["s3://s3fjd43/data/simple_csv_data.csv"]}, format="csv", withHeader=True)
 
 job.commit()
