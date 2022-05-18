@@ -18,7 +18,8 @@ job.init(args['JOB_NAME'], args)
 # Read CSV file from S3 into a dynamic frame
 dynamic_frame_0 = glueContext.create_dynamic_frame_from_options(
     connection_type = "s3",
-    connection_options= {"paths": ["s3://s3fjd43/data/simple_csv_data.csv"]},
+    connection_options= {
+    "paths": ["s3://s3fjd43/data/simple_csv_data.csv"]},
     format = "csv",
     format_options = {
         "withHeader": True
