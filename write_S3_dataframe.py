@@ -33,3 +33,5 @@ data_frame_0.write.parquet(
     "s3://s3fjd43/write_S3_dataframe/",
     mode = "overwrite"
 )
+
+job.commit()
