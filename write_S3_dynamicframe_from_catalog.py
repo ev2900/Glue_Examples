@@ -17,4 +17,4 @@ job.init(args['JOB_NAME'], args)
 
 # Read data in to a dynamic frame from the glue data catalog
 
-# Write data back out to S3
+# Write data back out to S3 as dynamic frame
