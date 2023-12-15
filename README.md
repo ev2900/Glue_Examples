@@ -1,5 +1,5 @@
 # Glue Examples
 
-<img width="85" alt="map-user" src="https://img.shields.io/badge/views-574-green"> <img width="125" alt="map-user" src="https://img.shields.io/badge/unique visits-134-green">
+<img width="85" alt="map-user" src="https://img.shields.io/badge/views-578-green"> <img width="125" alt="map-user" src="https://img.shields.io/badge/unique visits-134-green">
 
 Sample PySpark script designed to run on AWS Glue. Sample scripts cover common operations that need to be completed with Glue
